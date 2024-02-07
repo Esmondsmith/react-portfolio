@@ -1,0 +1,20 @@
+npm install tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+THIS SHOULD BE SET-UP INSIDE TAILWIND.CONFIQ.JS
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+THIS SHOULD BE INSIDE THE index.css FILE
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ALL THESE SHOULD BE DONE BEFORE THE  <<< npm start >>>
