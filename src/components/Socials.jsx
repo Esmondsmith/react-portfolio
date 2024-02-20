@@ -16,7 +16,7 @@ const Socials = () => {
                 LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href: "https://linkedin.com",
+            href: "https://www.linkedin.com/in/esmond-agharovbokhan-7766a2274/",
             style: 'rounded-tr-md' //to round the top right
         },
         {
@@ -44,7 +44,7 @@ const Socials = () => {
                 Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: "/esmond-cv.pdf",
+            href: "/esmond.pdf",
             style: 'rounded-br-md', //to round the bottom right
             download: true, //to allow download of the resume
         }

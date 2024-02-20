@@ -6,6 +6,11 @@ import Portfolio from "./components/Portfolio";
 import Experiences from "./components/Experiences"
 import Contact from "./components/Contact";
 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Demo from './pages/Demo';
+import Code from './pages/Code';
+
+
 
 function App() {
   return (
@@ -25,6 +30,13 @@ function App() {
       <Contact />
 
       <Socials />
+
+      <BrowserRouter>
+        <Routes>
+          <Route path='/demo' element={<Demo />} />
+          <Route path='/code' element={<Code />} />
+        </Routes>
+      </BrowserRouter>
 
     </div>
   );
