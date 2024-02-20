@@ -13,13 +13,13 @@ const About = () => {
 
             <br />
 
-            <p className="text-xl mb-20">
+            <p className="text-xl">
             In the past, I have amassed a plethora of skills in various web technologies such as HTML5, CSS (Bootstrap and Tailwind), JavaScript, PHP, ReactJS, and many more. I believe that effective web development goes beyond just lines of code. It's about creating an immersive and engaging digital experience. I enjoy experimenting with design principles and incorporating the latest trends to build aesthetically pleasing and functional websites. I love diving into complex coding challenges in an attempt to proffer solutions. Whether it's troubleshooting a bug, optimizing website performance, or implementing new features, I approach every problem with a solution-oriented mindset. I enjoy working alongside other fellow developers, and stakeholders, which makes me thrive in collaborative environments. Clear communication and teamwork are at the core of my approach to ensure successful project outcomes.
             </p>
 
             <br />
 
-            <p>
+            <p className="text-xl mb-15">
             For me, web development goes beyond being a job, it's a passion. I'm currently seeking new opportunities to bring my skills and enthusiasm to a dynamic team. If you're looking for a web developer who combines technical expertise with a creative flair, let's connect! I am excited about the possibility of contributing to innovative projects and being a part of a collaborative development community. Feel free to contact me via email or linkedin.
             </p>
 
