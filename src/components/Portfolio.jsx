@@ -7,7 +7,6 @@ import home4 from '../assets/home4.jpg'
 import home5 from '../assets/home5.jpg'
 // import { Link } from 'react-router-dom';
 
-
 const Portfolio = () => {
 
     const portfolios = [
@@ -44,7 +43,6 @@ const Portfolio = () => {
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</p>
                 <p className='my-6'>Check out my previous projects</p>
             </div>
-
             
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
